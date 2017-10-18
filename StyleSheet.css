@@ -1,0 +1,219 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+
+body {
+	font-family: calibri, sans-serif;
+	background-color: #f7f7f7;
+	padding-bottom: 30px;
+	}
+
+nav {
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	}
+
+h1 { 
+	position: absolute;
+	width:98.5%;
+	font-size: 20pt; 
+	font-family: Helvetica, calibri;
+	padding:5px;
+	padding-right: 20px;
+	color: #414244;
+	border-bottom-width:4pt;
+	border-bottom-style: solid;
+	border-bottom-color:#2e811c;
+	background-color: white;
+	font-weight: lighter;
+	text-align: left;
+	}
+h2 {
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: Helvetica, calibri, sans-serif;
+	font-size: 40pt;
+	font-weight: lighter;
+	color:#414244;
+	padding: 20px 0px;
+}
+.logo{
+	text-decoration: none;
+	color: #414244;
+}
+ul.nav {
+	float:right;
+	width:275px;
+	font-size: 16pt;
+	list-style: none;
+	color: blue;
+	margin: 0px 0px;
+	display: inline;
+	}
+
+li.nav {
+	top:50%;
+	transform: translateY(+30%);
+	position: relative;
+	float: right;
+	padding:0;
+	}
+	
+ul li a.nav {
+	color: #414244;
+	padding: 6pt 16px;
+	background-color: white; 
+	text-decoration: none;
+	}
+
+ul li a.nav:hover {
+	color: white;
+	background-color: #2e811c;
+	margin:0;
+	}
+
+ul li a:active {
+	color: #d4d4d6;
+	}
+
+img.head {
+	padding-top: 30px;
+	width: 100%;
+	}
+div.product{
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	width: 45%;
+	padding: 20px 7%;
+    
+	}
+img.picPreview{
+	width: 170px;
+	height: 170px;
+	margin-left: 20%;
+	margin-right: 25px;
+	box-shadow: 5px 5px 5px #575757;
+	}
+div.pic{
+	position: static;
+	float: left;
+	padding-right: 65px;
+	}
+div.picName{
+	width: 65%;
+    text-align: left;
+    margin-left: 50%;
+    font-size: 29px;
+	}
+div.picName a{
+	font-size: 29px;
+	text-decoration: none;
+	color: black;
+}
+div.picPrice{
+	font-size: 20pt;
+	font-style: italic;
+	margin-left: 15%;
+	color:#2e811c;
+	text-align: right;
+	margin-right: -20%;
+	}
+div.picDesc{
+	font-size: 12pt;
+	margin-left: 20%;
+	color: #848484;
+	width:110%;
+	}
+div.add{
+	text-align: right;
+	margin-right:-20%;
+	}
+div.add a{
+	color:#525652;
+	text-decoration: none;
+	font-size: 10pt;
+	text-align: right;
+	margin-left: 5%
+}
+div.add a:hover{
+	text-decoration: underline;
+}
+p.total{
+	text-align: center;
+	font-size: 17pt;
+	padding-bottom: 8%;
+}
+form{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+form.filter{
+	text-align: right;
+	width: 66%;
+}
+input.pay{
+	width: 20%;
+	position: relative;
+	left: 40%;
+}
+.invalid{
+	color: red;
+	}
+.help{
+	text-align: center;
+	color: #aaaaaa;
+	}
+hr.payment{
+	width: 40%;
+	}
+
+hr {
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	width:66%;
+ 	height: 3px;
+ 	background-color: #2e811c; 
+ 	border-top: 0px;
+ 	margin-bottom: 10px;
+ 	}
+
+footer{
+	width: 100%;
+	height: 10%;
+	background-color: #2e811c;
+	}
+footer.fixed{
+	bottom: 0;
+	position: fixed;
+	height: 7%;
+	}
+#footertext{
+	font-size: 12pt;
+	color: white;
+	float: right;
+	width: 100%;
+	height: 10%;
+	background-color: #2e811c;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+	padding-right:20px;
+	margin-top: 20px;
+	}
+#footertextfixed{
+	font-size: 12pt;
+	color: white;
+	float: right;
+	width: 100%;
+	height: 7%;
+	background-color: #2e811c;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	text-align: right;
+	padding-right:20px;
+	margin-top: 20px;
+}
